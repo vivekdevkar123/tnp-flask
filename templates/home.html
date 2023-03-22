@@ -1,0 +1,23 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Placement Prediction </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+            <b> CGPA :  <input type="text", name='a' required> <br><br>
+                Score in Quants :  <input type="text", name='b' required> <br><br>
+                Score in Verbal :  <input type="text", name='c' required> <br><br>
+                Score in Logical Reasoning : <input type="text", name='d' required> <br><br>
+                Score in Technical : <input type="text", name='e' required> <br><br>
+                Score in Coding : <input type="text", name='f' required> <br><br><br></b>
+          
+            <input type="submit" , value='predict!' >
+        </form>
+
+       
+    </center>
+
+    </body>
+</html>
